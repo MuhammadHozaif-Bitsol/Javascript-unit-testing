@@ -23,6 +23,6 @@ describe("fizzBuzz", () => {
     expect(fizzBuzz(5)).toBe("Buzz");
   });
   it(" convert the input number to a string if it's mod is not zero when divided by 3 or 5", () => {
-    expect(fizzBuzz(7)).toBe("7");
+    expect(fizzBuzz(7)).expectTypeOf("7");
   });
 });

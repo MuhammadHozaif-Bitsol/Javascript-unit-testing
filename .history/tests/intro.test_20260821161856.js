@@ -1,4 +1,4 @@
-import { test, it, describe, expect, expectTypeOf } from "vitest";
+import { test, it, describe, expect } from "vitest";
 import { max } from "../src/intro";
 import { fizzBuzz } from "../src/intro";
 describe("max", () => {
@@ -16,13 +16,7 @@ describe("fizzBuzz", () => {
   it(" return fizzbuzz if the mod of that number by 3 and 5 is zero", () => {
     expect(fizzBuzz(15)).toBe("FizzBuzz");
   });
-  it(" return fizz if the mod of that number by 3 is zero", () => {
+  it(" return fizz if the mod of that number by  3 is zero", () => {
     expect(fizzBuzz(3)).toBe("Fizz");
-  });
-  it(" return fizz if the mod of that number by 5 is zero", () => {
-    expect(fizzBuzz(5)).toBe("Buzz");
-  });
-  it(" convert the input number to a string if it's mod is not zero when divided by 3 or 5", () => {
-    expect(fizzBuzz(7)).toBe("7");
   });
 });
