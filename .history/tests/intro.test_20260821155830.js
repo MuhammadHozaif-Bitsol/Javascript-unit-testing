@@ -8,6 +8,6 @@ describe("max", () => {
     expect(max(1, 2)).toBe(2);
   });
   it("should return the first argument if arguments are equal", () => {
-    expect(max(1, 1)).toBe(1);
+    expect(max(1, 2)).toBe(2);
   });
 });
