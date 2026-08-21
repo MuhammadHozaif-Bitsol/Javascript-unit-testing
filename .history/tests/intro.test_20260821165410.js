@@ -30,12 +30,6 @@ describe("fizzBuzz", () => {
 
 describe("factorial", () => {
   it("return the factorial of the given number", () => {
-    expect(factorial(3)).toBe(6);
-  });
-  it("return the factorial of 1  as 1", () => {
-    expect(factorial(1)).toBe(1);
-  });
-  it("return the factorial of 0  as 1", () => {
-    expect(factorial(0)).toBe(1);
+    expect(factorial(3).toBe(6));
   });
 });

@@ -12,10 +12,9 @@ export function fizzBuzz(n) {
   if (n % 5 === 0) return "Buzz";
   return n.toString();
 }
-export function factorial(number) {
+function factorial(number) {
   let fact = 1;
   for (let i = 1; i <= number; i++) {
-    fact = fact * i;
+    fact = fact * number;
   }
-  return fact;
 }
